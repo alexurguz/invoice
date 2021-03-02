@@ -1,0 +1,148 @@
+# InvoiceApi
+
+The InvoiceApi is a project written in c#, the project aims to meet the challenge for a candidate for developer in Gmstek company, to carry out the project, the following must be taken into account:
+
+    - Clean architecture
+    - Dependency injection
+    - Entity Framework Corec
+    - Fluent Api
+    - DTOs & Automapper
+    - Business Logic and Repository Pattern
+    - Unit of Work
+    - Custom Exceptions
+    - Pagination
+
+### Project IDE
+
+The InvoiceApi was developed whit [Visual Studio 2019 for mac](https://visualstudio.microsoft.com/es/vs/mac/net/) download and install to change and view code.
+
+To open the solution, in the IDE File->Open->search the project directory directory **ApiInvoice/Invoice/Invoice.sln**
+
+### Project structure
+
+The project is structured as follows:
+
+##### 1. Invoice (solution project):
+- Contains all projects
+##### 2. Invoice.Api(expose api rest):
+- Contains the controls that expose the api, and contains all the project configurations.
+##### Platforms
+- Microsoft.AspNetCore.App(3.1.8)
+- Microsoft:NetCore.App(3.1.0)
+##### NuGet
+- AutoMapper.Extensions.Microsoft.DependencyInjection(8.1.0)
+- FluentValidation.AspNetCore(8.6.3)
+- Microsoft.AspNetCore.Mvc.NewtonSoftJson(3.1.9)
+- Microsoft.EntityFrameworkCore.Design(3.1.9)
+- Microsoft.VisualStudio.Web.CodeGeneration.Design(3.1.4)
+##### Projects
+- SpotifyApi.Core
+- SpotifyApi.Insfrastructure
+
+##### 3. Invoice.Core(business logic):
+- Contains all implementations, definition of entities, abstractions, implementation of use cases, applying dependency injection.
+##### Platforms
+- NetStandard:Library(2.1.0)
+##### NuGet
+- Microsoft.Extensions.Options(3.1.9)
+##### Projects
+- SpotifyApi.Utilities
+
+##### 4. Invoice.Infrastructure(data processing):
+- It contains all the data management of the application, implementations, own of the database and the Spotify api
+##### Platforms
+- NetStandard:Library(2.1.0)
+##### NuGet
+- AutoMapper.Extensions.Microsoft.DependencyInjection(8.1.0)
+- EFCore.BulkExtensions(3.2.5)
+- FluentValidation.AspNetCore(8.6.3)
+- Microsoft.AspNetCore.Mvc.Core(2.2.5)
+- Microsoft.EntityFrameworkCore(3.1.9)
+- Microsoft.EntityFrameworkCore.SqlServer(3.1.9)
+- Microsoft.EntityFrameworkCore.Tools(3.1.9)
+- RestSharp(106.11.7)
+
+##### 5. Invoice.Common(project commun utilities):
+- Contains files of common utilities, constants, functions.
+##### Platforms
+- NetStandard:Library(2.1.0)
+##### NuGet
+- Newtonsoft.Json(12.0.3)
+
+### Install environment( container, database image, api server )
+
+To install the environment you must follow the following steps
+- Download and install [Docker](https://www.docker.com/products/docker-desktop)
+- In your Docker dashboard configure the **Memory:4.00GB**. Go to **Configure->Resources**
+- Download the source code of **ApiInvoice**
+- In the root directory you will find the following folders:
+    1. **Invoice**: Folder with the solution the api projects.
+    2. **Database**: Folder with file.sql to database api.
+    3. **ApiSpecification**: Folder with files api postman **(ApiInvoice.postman_collection.json, InvoiceApi.postman_environment.json)**
+- After installing Docker, go to the terminal and enter the directory **ApiInvoice**
+    ```sh
+    $ cd ApiInvoice/
+    ```
+- Create the network, run the command
+    ```sh
+    $ docker network create -d bridge --subnet 192.0.0.0/24 --gateway 192.0.0.1 invoice-net
+    ```
+- Once inside the directory **Invoice**, run the command
+    ```sh
+    $ docker-compose up --build
+    ```
+- The container with the database image will be installed, and the application server on which the InvoiceApi solution will be published will be installed.
+- You can test that it has been published by accessing the test endpoint **[weatherforecast](http://localhost/weatherforecast)**
+- Will display the message
+    ```
+    Welcome to the Invoice Api
+    ```
+
+### Install environment( create database )
+
+To be able to make the connection and the creation of the database, we must perform the following steps:
+
+- Download a database client SqlServer for example **[Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15)**
+- Go to connections and select new connection
+- In the segment Connections details, register data connection
+    ```sh
+    Connection Type: Microsoft SQL Server
+    Server: localhost
+    Authentication type: SQL Login
+    User name: sa
+    Password: A_1234567O
+    Database: <Default>
+    Server group: <Default>
+    Name (optional): Any Name
+    ```
+- Click on the connect option
+- Once the database server is created, we proceed to create the database
+- Let's go to the directory **Database** open the file **[Database/Script.sql](Database/Script.sql)**
+- In the client SqlServer open a **new query tab** and paste the sentence to create database
+    ```sh
+    CREATE DATABASE InvoiceDB;
+    ```
+- After creating the database, you can copy and paste all the remaining content of the file, and proceed to execute it.
+
+**With this we conclude the installation of the environment**
+
+### Consume Api
+
+**[Base Url](http://localhost/api)**:
+
+```sh
+http://localhost/api
+```
+
+To consume the api a collection of Postman is provided **[ApiSpecification/ApiInvoice.postman_collection.json](ApiSpecification/ApiInvoice.postman_collection.json)**
+To consume the api a environment of Postman is provided **[ApiSpecification/InvoiceApi.postman_environment.json](ApiSpecification/InvoiceApi.postman_environment.json)**
+
+To use the Postman collection download and install [Postman](https://www.postman.com/downloads/)
+
+When finished to install the Postman import the collection **[ApiSpecification/PatagonianTest.postman_collection.json](ApiSpecification/PatagonianTest.postman_collection.json)**
+When finished to install the Postman import the environment **[ApiSpecification/InvoiceApi.postman_environment.json](ApiSpecification/PatagonianTest.postman_collection.json)**
+
+The first endpoint that you have to execute is **/artists/{artistsIds}**
+
+
+Project created by **[Johnatan Alexis Urbano Guzmán](https://www.johnatan.dev/)**

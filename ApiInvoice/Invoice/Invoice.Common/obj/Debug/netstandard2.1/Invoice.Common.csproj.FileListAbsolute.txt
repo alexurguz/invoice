@@ -1,0 +1,27 @@
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Common/bin/Debug/netstandard2.1/Invoice.Common.deps.json
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Common/bin/Debug/netstandard2.1/Invoice.Common.dll
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Common/bin/Debug/netstandard2.1/Invoice.Common.pdb
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.csprojAssemblyReference.cache
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.AssemblyInfoInputs.cache
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.AssemblyInfo.cs
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.csproj.CoreCompileInputs.cache
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.dll
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.pdb
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Common/bin/Debug/netstandard2.1/Invoice.Common.deps.json
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Common/bin/Debug/netstandard2.1/Invoice.Common.dll
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Common/bin/Debug/netstandard2.1/Invoice.Common.pdb
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.csprojAssemblyReference.cache
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.AssemblyInfoInputs.cache
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.AssemblyInfo.cs
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.csproj.CoreCompileInputs.cache
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.dll
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.pdb
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/bin/Debug/netstandard2.1/Invoice.Common.deps.json
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/bin/Debug/netstandard2.1/Invoice.Common.dll
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/bin/Debug/netstandard2.1/Invoice.Common.pdb
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.csprojAssemblyReference.cache
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.AssemblyInfoInputs.cache
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.AssemblyInfo.cs
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.csproj.CoreCompileInputs.cache
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.dll
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/obj/Debug/netstandard2.1/Invoice.Common.pdb

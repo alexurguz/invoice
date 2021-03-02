@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/Invoice.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/Invoice.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/Invoice.Common.csproj",
+        "projectName": "Invoice.Common",
+        "projectPath": "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/Invoice.Common.csproj",
+        "packagesPath": "/Users/johnatan/.nuget/packages/",
+        "outputPath": "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/johnatan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Core/Invoice.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Core/Invoice.Core.csproj",
+        "projectName": "Invoice.Core",
+        "projectPath": "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Core/Invoice.Core.csproj",
+        "packagesPath": "/Users/johnatan/.nuget/packages/",
+        "outputPath": "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/johnatan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/Invoice.Common.csproj": {
+                "projectPath": "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/Invoice.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/Invoice.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/Invoice.Infrastructure.csproj",
+        "projectName": "Invoice.Infrastructure",
+        "projectPath": "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/Invoice.Infrastructure.csproj",
+        "packagesPath": "/Users/johnatan/.nuget/packages/",
+        "outputPath": "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/johnatan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/Invoice.Common.csproj": {
+                "projectPath": "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Common/Invoice.Common.csproj"
+              },
+              "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Core/Invoice.Core.csproj": {
+                "projectPath": "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Core/Invoice.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  database:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    hostname: InvoiceDB
+    ports:
+      - "1433:1433"
+    expose:
+      - "1433"
+    networks:
+      invoice-net:
+        ipv4_address: 192.0.0.2
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: A_1234567O
+  invoice-api:
+    image: gmstek_test
+    hostname: invoice-api
+    ports:
+      - "80:80"
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      - "database"
+    networks:
+      invoice-net:
+        ipv4_address: 192.0.0.3
+networks:
+  invoice-net:
+    external: true

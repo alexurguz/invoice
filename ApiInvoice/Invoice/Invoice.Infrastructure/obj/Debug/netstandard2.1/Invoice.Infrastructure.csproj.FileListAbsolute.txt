@@ -1,0 +1,42 @@
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Infrastructure.deps.json
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Infrastructure.dll
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Infrastructure.pdb
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Common.dll
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Core.dll
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Core.pdb
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Common.pdb
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.csprojAssemblyReference.cache
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.AssemblyInfoInputs.cache
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.AssemblyInfo.cs
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.csproj.CopyComplete
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.dll
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.pdb
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.csprojAssemblyReference.cache
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.AssemblyInfoInputs.cache
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.AssemblyInfo.cs
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.dll
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.pdb
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Infrastructure.deps.json
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Infrastructure.dll
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Infrastructure.pdb
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Common.dll
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Core.dll
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Core.pdb
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Common.pdb
+/Users/johnatan/Documents/Johnatan/Capacitaciones/Microsoft dev/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.csproj.CopyComplete
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Infrastructure.deps.json
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Infrastructure.dll
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Infrastructure.pdb
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Common.dll
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Core.dll
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Core.pdb
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/bin/Debug/netstandard2.1/Invoice.Common.pdb
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.csprojAssemblyReference.cache
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.AssemblyInfoInputs.cache
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.AssemblyInfo.cs
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.csproj.CopyComplete
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.dll
+/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Infrastructure/obj/Debug/netstandard2.1/Invoice.Infrastructure.pdb

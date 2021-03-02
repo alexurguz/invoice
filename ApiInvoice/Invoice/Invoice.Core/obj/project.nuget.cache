@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "XFhl9I7SZKgvjusPrYi8zv6NP2trtDxPSrGTmSR9OFF56NSZdYn0rVSt+iRSkRa2iDo/QGFLCAS8kenp90zTuQ==",
+  "success": true,
+  "projectFilePath": "/Users/johnatan/Documents/Projects/ApiInvoice/Invoice/Invoice.Core/Invoice.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/johnatan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/johnatan/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/johnatan/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/johnatan/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/johnatan/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/johnatan/.nuget/packages/system.numerics.vectors/4.4.0/system.numerics.vectors.4.4.0.nupkg.sha512",
+    "/Users/johnatan/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

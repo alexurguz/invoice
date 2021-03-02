@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{046F5D90-2801-45E4-9B70-A78695FC91E6}|Default">
+  <MonoDevelop.Ide.ItemProperties.Invoice.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Invoice.Api/appsettings.json">
+    <Files>
+      <File FileName="Invoice.Api/appsettings.json" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Invoice" expanded="True">
+            <Node name="Invoice.Api" expanded="True">
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Invoice.UnitTest/Invoice.IntegrationTest/Invoice.IntegrationTest.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

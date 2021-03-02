@@ -1,0 +1,431 @@
+{
+	"info": {
+		"_postman_id": "811b62e4-3649-4c95-8188-bdc27a580412",
+		"name": "ApiInvoice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SalesInvoice",
+			"item": [
+				{
+					"name": "Invoices",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "{{host}}/invoices?pageNumber=1&pageSize=10",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"invoices"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetNotDeleted",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"IdCustomer\" : 2,\n    \"updateDate\": \"2020-09-30\"\n}"
+						},
+						"url": {
+							"raw": "{{host}}/SalesInvoice",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"SalesInvoice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/SalesInvoice/24",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"SalesInvoice",
+								"24"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/SalesInvoice/23",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"SalesInvoice",
+								"23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"idCustomer\": 1,\n    \"dateSales\": \"2020-09-28T00:00:00\",\n    \"address\": \"AV 4A OESTE # 13-52\",\n    \"country\": \"Colombia\",\n    \"city\": \"Cali\",\n    \"discount\": 10000.0,\n    \"total\": 110000.0,\n    \"totalWithoutDiscount\": 120000.0,\n    \"status\": \"Active\",\n    \"deleted\": 0,\n    \"createDate\": \"2020-09-28T00:00:00\",\n    \"updateDate\": \"2020-09-28T00:00:00\",\n    \"salesInvoiceProducts\": [\n        { \n            \"IdProduct\": 1,\n            \"Quantity\": 1,\n            \"UnitValue\": 120000,\n            \"TotalValue\": 120000,\n            \"Deleted\": false,\n            \"createDate\": \"2020-09-28T00:00:00\",\n            \"updateDate\": \"2020-09-28T00:00:00\"\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/SalesInvoice",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"SalesInvoice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"idSalesInvoice\": 24,\n    \"idCustomer\": 1,\n    \"dateSales\": \"2020-09-28T00:00:00\",\n    \"address\": \"AV 4A OESTE # 13-52\",\n    \"country\": \"Colombia\",\n    \"city\": \"Cali\",\n    \"discount\": 10000.0,\n    \"total\": 140000.0,\n    \"totalWithoutDiscount\": 150000.0,\n    \"status\": \"Active\",\n    \"deleted\": false,\n    \"createDate\": \"2020-09-28T00:00:00\",\n    \"updateDate\": \"2020-09-28T00:00:00\",\n    \"salesInvoiceProducts\": [\n        {\n            \"idSalesInvoiceProduct\": 3,\n            \"idSalesInvoice\": 24,\n            \"idProduct\": 1,\n            \"quantity\": 1,\n            \"unitValue\": 140000.0,\n            \"totalValue\": 140000.0,\n            \"deleted\": false,\n            \"createDate\": \"2020-09-28T00:00:00\",\n            \"updateDate\": \"2020-09-28T00:00:00\"\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/SalesInvoice",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"SalesInvoice"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "GetNotDeleted",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/Product",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Product"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/Product/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Product",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/Product/5",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Product",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Producto 6\",\n    \"description\": \"Porducto de muestra\",\n    \"status\": \"Active\",\n    \"deleted\": false,\n    \"createDate\": \"2020-09-28T00:00:00\",\n    \"updateDate\": \"2020-09-28T00:00:00\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/Product",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Product"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"idProduct\": 6,\n    \"name\": \"Producto 87\",\n    \"description\": \"Porducto de  5\",\n    \"status\": \"Active\",\n    \"deleted\": false,\n    \"createDate\": \"2020-09-28T00:00:00\",\n    \"updateDate\": \"2020-09-28T00:00:00\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/Product",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"Product"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "GetNotDeleted",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/User",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/User/3",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"User",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/User/2",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"User",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"names\": \"Carlos Fernando 11\",\n    \"lastName\": \"Arboleda Garces 2\",\n    \"email\": \"cutu@gmail.com\",\n    \"dateBirth\": \"1988-01-18T00:00:00\",\n    \"phoneNumber\": \"(+57)3175910407\",\n    \"status\": \"Active\",\n    \"deleted\": false,\n    \"createDate\": \"2020-09-28T00:00:00\",\n    \"updateDate\": \"2020-09-28T00:00:00\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/User",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"idUser\": 3,\n    \"names\": \"Johnatan Alexis 1214\",\n    \"lastName\": \"Urbano Guzmán Marra\",\n    \"email\": \"johnurbaguz@gmail.com\",\n    \"dateBirth\": \"1988-01-18T00:00:00\",\n    \"phoneNumber\": \"(+57)3175910407\",\n    \"status\": \"Active\",\n    \"deleted\": false,\n    \"createDate\": \"2020-09-28T00:00:00\",\n    \"updateDate\": \"2020-09-28T00:00:00\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/User",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"User"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

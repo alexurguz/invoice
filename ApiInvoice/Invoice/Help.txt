@@ -1,0 +1,24 @@
+sudo docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=A_1234567O" \
+   -p 1433:1433 --name sql1 -h sql1 \
+   -d mcr.microsoft.com/mssql/server:2019-latest
+
+
+
+   sudo docker exec -it sql1 "bash"
+
+   /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "A_1234567O"
+
+
+Infrastructure nugets
+
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore:SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+Api nugets
+
+Microsoft.EntityFrameworkCore:Design
+
+Nuget Package manager console
+
+Scaffold-DbContext "data source=localhost,1433;initial catalog=ApiTest;user id=sa;password=A_1234567O" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data
